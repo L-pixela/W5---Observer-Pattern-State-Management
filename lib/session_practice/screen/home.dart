@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_demo/provider/count_notifier.dart';
+import 'package:provider_demo/session_practice/provider/count_notifier.dart';
 
 class MyWidget extends StatelessWidget {
   const MyWidget({super.key});
