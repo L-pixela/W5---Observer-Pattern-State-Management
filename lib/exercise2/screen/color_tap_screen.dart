@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider_demo/exercise2/model/card_type.dart';
-import 'package:provider_demo/exercise2/screen/tap/color_tap.dart';
+import 'package:provider_demo/exercise2/screen/color_tap.dart';
 
 class ColorTapsScreen extends StatelessWidget {
   const ColorTapsScreen({super.key});

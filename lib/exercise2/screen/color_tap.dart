@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider_demo/exercise2/service/tap_counter_notifier.dart';
 
-import '../../model/card_type.dart';
+import '../model/card_type.dart';
 
 class ColorTap extends StatelessWidget {
   final CardType type;
