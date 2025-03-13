@@ -7,6 +7,7 @@ class StatisticsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("Is StatisticsScreen updating?");
     return Consumer<TapCounter>(
       builder: (context, counters, child) {
         return Scaffold(

@@ -10,6 +10,7 @@ class ColorTap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("is ColorTap updating??");
     final color = type == CardType.red ? Colors.red : Colors.blue;
 
     return Consumer<TapCounter>(

@@ -7,6 +7,7 @@ class ColorTapsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("is ColorTapsScreen updating ?");
     return Scaffold(
       appBar: AppBar(title: const Text('Color Taps')),
       body: Column(
